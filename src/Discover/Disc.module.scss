@@ -1,0 +1,41 @@
+.diss
+{
+    display: flex;
+    color: white;
+}
+.left_diss
+{
+    width: 510px;
+    height: 540px;
+    margin-left: 15%;
+
+        h1 
+        {
+            height: 210px;
+            font-size: 67px;
+            text-align: left;
+        }
+        p 
+        {
+           text-align: left;
+            font-size: 22px;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-transform: capitalize;
+        }
+        button 
+        {
+            display: flex;
+            width: 220px;
+            height: 60px;
+            gap: 12px;
+            color: white;
+            border-radius: 20px;
+            background: #A259FF;
+            justify-content: space-around;
+            align-items: center;
+            border: none;
+
+        }
+        
+}
