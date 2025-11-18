@@ -1,0 +1,73 @@
+.creat
+{
+display: flex;
+
+}
+
+.left_creat
+{
+    width: 610px;
+    height: 691px;
+}
+.right_creat
+{
+    margin-top: 80px;
+     h1 
+     {
+        text-align: left;
+            width: 460px;
+            height: 56px;
+            margin-left: 50px;
+
+     }
+
+     p 
+     {
+        font-size: 22px;
+        text-align: justify;
+        width: 460px;
+        height: 56px;
+        margin-left: 50px;
+     }
+.inp 
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+
+        img 
+        {
+            margin-right: 3%;
+           
+        }
+    input 
+    {
+        margin-top: 2%;
+        width: 330px;
+        height: 46px;
+        border: 1px;
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+    }
+
+    li 
+    {
+        list-style: none;
+        
+    }
+
+    button 
+    {
+        width: 330px;
+        height: 46px;
+        opacity: 1;
+        margin-left: 100px;
+        margin-top: 5%;
+        background-color: #A259FF;
+        border-radius: 20px;
+;
+    }
+}
+}

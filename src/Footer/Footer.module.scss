@@ -1,0 +1,27 @@
+.Konech
+{
+    display: flex;
+    width: 1050px;
+    height: 300px;
+    margin-top: 2%;
+
+
+}
+
+.levo{
+    display: flex;
+    flex-direction: column;
+    h1 
+    {
+        color: white;
+        font-size: 32px;
+        width: 250px;
+        height: 50px;
+
+    }
+    img 
+    {
+        width: 32px;
+        height: 32px;
+    }
+}

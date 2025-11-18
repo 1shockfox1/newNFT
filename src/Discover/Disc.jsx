@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import style from '../Discover/Disc.module.scss'
 import raketa from '../assets/RocketLaunch.png'
-
+import luna from '../assets/Highlighted.png'
 function Disc() {
   const [count, setCount] = useState(0)
 
@@ -15,18 +15,24 @@ function Disc() {
         <img src={raketa} alt="" />
         Get Started
     </button>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+    <ul className= {style.total}>
+        <li>
+          <h1> 240k+ </h1>
+          <p> Total Sale </p>
+        </li>
+        <li>
+          <h1> 240k+ </h1>
+          <p> Total Sale </p>
+        </li>
+        <li>
+          <h1> 240k+ </h1>
+          <p> Total Sale </p>
+        </li>
     </ul>
     </div>
     
     <div>
-    <img src="" alt="" />
-    <h2></h2>
-    <img src="" alt="" />
-    <p></p>
+    <img src= {luna} alt="" />
     </div>
 
      </section>
