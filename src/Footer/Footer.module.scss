@@ -1,27 +1,102 @@
 .Konech
 {
     display: flex;
-    width: 1050px;
-    height: 300px;
-    margin-top: 2%;
-
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 40px;
 
 }
 
 .levo{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
     h1 
     {
         color: white;
-        font-size: 32px;
+        font-size: 22px;
         width: 250px;
-        height: 50px;
+      
 
     }
     img 
     {
+        
         width: 32px;
         height: 32px;
+    }
+    p 
+    {
+        color: rgba(204,204,204,1);
+        text-align: left;
+        margin-left: 50px;
+        font-size: 16px;
+    }
+}
+
+.Konechi 
+{
+    display: flex;
+        align-items: center;
+}
+.photo
+{
+    margin-left: 50px;
+
+    img 
+    {
+        margin-left: 10px;
+    }
+}
+
+.center
+{
+    margin-right: 100px;
+        h2 
+        {
+                color: white;
+                font-size: 22px;
+                text-align: left;
+        }
+        p 
+        {
+           color: rgba(204,204,204,1);
+           text-align: left;
+           font-size: 16px;
+        }
+}
+
+.pravo
+{
+    margin-right: 250px;
+    h1 
+    {
+            color: white;
+            font-size: 22px;
+    }
+
+    p 
+    {
+        width: 220px;
+        color: rgba(204,204,204,1);
+        font-size: 16px;
+        text-align: left;
+    }
+}
+.inbut 
+{
+   width: 420px;
+    input 
+    {
+        width: 200px;
+        height: 60px;
+    }
+    button 
+    {
+        width: 120px;
+        height: 60px;
+        position: absolute;
+        
     }
 }
