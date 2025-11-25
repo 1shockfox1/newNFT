@@ -18,7 +18,9 @@ function Header() {
        </ul>
  </Link>
         <ul className={style.ulika1}>
+            <Link to={'Marketplace'}> 
             <a href="#">Marketplace</a>
+            </Link>
             <a href="#">Rankings</a>
             <a href="#">Connect a wallet</a>
             <Link to = {'registr'}> 

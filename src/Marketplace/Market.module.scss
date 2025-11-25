@@ -1,0 +1,40 @@
+.market
+{
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+
+    input 
+    {
+        width: 1050px;
+        height: 60px;
+        background-color: #2B2B2B;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+}
+.viborka 
+{
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+
+    p 
+    {
+        color: #585858;
+        font-size: 22px;
+        cursor: pointer;
+        transition: backhround-color 1s;
+    }
+    p:active {
+    color: white;
+            }
+           
+            
+    p.active 
+    {
+    color: white !important;
+    }
+}

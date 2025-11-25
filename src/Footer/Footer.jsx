@@ -2,6 +2,11 @@ import style from '../Footer/Footer.module.scss'
 import photo from '../assets/Storefront.png'
 import { Link } from 'react-router-dom'
 import photoo from  '../assets/User.png'
+import discord from '../assets/Discord.png'
+import insta from '../assets/Insta.png'
+import twit from '../assets/Twit.png'
+import you from '../assets/You.png'
+
 function Footer() {
   return (
     <>
@@ -16,10 +21,10 @@ function Footer() {
             <p>NFT marketplace UI created with Anima for Figma.</p>
             <p>Join our community</p>
             <div className={style.photo} >
-                <img src= {photoo} alt="" />
-               <img src= {photoo} alt="" />
-                <img src= {photoo} alt="" />
-                <img src= {photoo} alt="" />
+                <img src= {discord} alt="" />
+               <img src= {insta} alt="" />
+                <img src= {twit} alt="" />
+                <img src= {you} alt="" />
             </div>
         </div>
 
@@ -38,7 +43,11 @@ function Footer() {
             <button>  Sub</button>
             </div>
         </div>
+        
      </section>
+          <div className={style.holl}>
+          <p>Ⓒ NFT Market. Use this template freely.</p>
+        </div>
     </>
   )
 }
